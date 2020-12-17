@@ -1,0 +1,36 @@
+body{background-image: url('../imagenes/nkuchumova091100015.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    }
+
+    #container {border-radius: 20px;
+                border-width: 20px;
+                width:65%; /* para que sobre espacio por detrás */
+                margin:6px auto; /* para centrar el bloque */
+                margin-top: 4%;
+                padding-left: 2%;
+                padding-right: 2%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                background-color:rgba(206, 148, 121, 0.801);
+                opacity: initial;
+                position: static;
+            }
+
+    h1 {text-align: center;
+        color:rgb(212, 64, 19);
+        font-family: 'Dancing Script', cursive;}
+
+    p {text-align: center;
+        font-size: 25px;
+        text-shadow: crimson;
+        color: rgb(190, 15, 15);
+        text-rendering: auto;
+        font-family: 'Dancing Script', cursive;}
+
+@media screen and (max-width: 800px){
+    #container {width: 75%;}
+}
+@media screen and (max-width: 600px){
+    #container {width: 75%;}
+}
